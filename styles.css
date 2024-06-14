@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+h1{
+    color: white;
+    text-align: left;
+    font-family: sans-serif;
+    background-color: black;
+    padding-left: 10px;
+}
+
+nav{
+    position: absolute;
+    top: 35px;
+    right: 20px;
+}
+
+article {
+    float: left;
+    margin-left: 90px;
+}
+
+a{
+    background-color:aqua;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 5px;
+}
+
+a[href="#"]{
+    background-color: green
+}
+
+header{
+    background-image: url(Assets/design1_image1.jpg);
+    min-height: 20vh;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+
+h2{
+    text-align: center;
+}
+
+.maindiv {
+    margin-top: 30px;
+}
+.logo {
+    float:left;
+}
+
+.borde{
+    border: 1px solid black;
+}
+
+h3 {
+    margin: 5px;
+}
+
+p {
+    margin-left: 30px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
