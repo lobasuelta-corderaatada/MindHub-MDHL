@@ -1,0 +1,51 @@
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+body {
+    background-color: #F5E7B2;
+}
+
+h1 {
+    color: #973131;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+main {
+    padding: 20px 0;
+}
+
+nav {
+    margin: 0%;
+    border-radius: 10%;
+}
+
+a {
+    border-style: dashed;
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: #973131;
+}
+
+a:active {
+    color: lightblue;
+}
+
+.abc {
+    List-style-type: lower-alpha
+}
