@@ -1,0 +1,26 @@
+.gameSection{
+  background-color: var(--backgroundNav);
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  width: 50%;
+  text-align: center;
+  border: 2px solid;
+  border-collapse: collapse;
+  tr:nth-child(even){
+    background-color: #ffffff;}
+}
+
+th, td{
+  border: 1px solid;
+}
+
+th {
+  height: 70px;
+}

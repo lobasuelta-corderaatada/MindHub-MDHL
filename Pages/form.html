@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Upcoming Events">
+    <meta name="keywords" content="Mighty Ducks, Hockey, Hockey League">
+    <meta name="author" content="Jadri">
+    <title>Mighty Ducks Hockey League</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/form.css">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a id="divNav" href="../index.html">
+
+                <img src="../assets/logo.png" id="logoNav" alt="Logo">
+                <h1>Mighty Ducks Hockey League</h1>
+
+            </a>
+            <div>
+                <a href="../index.html">Home</a>
+                <a href="./about.html">About MDHL</a>
+                <a href="./contact.html">Contact</a>
+                <a href="./game_info.html">Game Info</a>
+                <a href="./rules.html">Rules</a>
+                <a href="./form.html">Form</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="sectionForm">
+            <form action="./show_data.html" method="get">
+                <h2>Registration Form</h2>
+                <br>
+                <fieldset>
+                    <section id="textInput">
+                    <div id="labels">
+                        <label class="labels" for="name">Player's First Name:</label>
+                        <label class="labels" for="address">Street Address:</label>
+                        <label class="labels" for="city">City:</label>
+                        <label class="labels" for="lastname">Last Name:</label>
+                        <label class="labels" for="zip">Zip Code:</label>
+                        <label class="labels" for="birthday">Birth Date(mm/dd/yyyy):</label>
+                    </div>
+                    <div id="inputs">
+                        <input class="inputs" type="text" name="name" id="name"><br>
+                        <input class="inputs" type="text" name="address" id="address"><br>
+                        <input class="inputs" type="text" name="city" id="city"><br>
+                        <input class="inputs" type="text" name="lastname" id="lastname"><br>
+                        <input class="inputs" type="text" name="zip" id="zip"><br>
+                        <input class="inputs" type="text" name="birthday" id="birthday"><br>
+                        
+                    </div>
+
+                </section>
+                    <h4>Gender:</h4>
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="male">Male</label><br>
+                    <br>
+
+
+                    <h3>Which elementary school do you live near?</h3>
+                    <h4>Closest School:</h4>
+                    <input type="radio" id="ajkatzenmaier" name="closest_school" value="AJ Katzenmaier">
+                    <label for="ajkatzenmaier">AJ Katzenmaier</label><br>
+
+                    <input type="radio" id="greenbay" name="closest_school" value="Greenbay">
+                    <label for="greenbay">Greenbay</label><br>
+
+                    <input type="radio" id="howardayeager" name="closest_school" value="Howard A Yeager">
+                    <label for="howardayeager">Howard A Yeager</label><br>
+
+                    <input type="radio" id="marjoriephart" name="closest_school" value="Marjorie P Hart">
+                    <label for="marjoriephart">Marjorie P Hart</label><br>
+
+                    <input type="radio" id="northelementary" name="closest_school" value="North Elementary">
+                    <label for="northelementary">North Elementary</label><br>
+
+                    <input type="radio" id="southelementary" name="closest_school" value="South Elementary">
+                    <label for="southelementary">South Elementary</label><br>
+
+                    <br>
+                    
+                    <h3>What position(s) do you normally play? (check all that apply)</h3>
+                    
+                    <input type="checkbox" id="position1" name="position1" value="Forward">
+                    <label for="position1">Forward</label><br>
+                    <input type="checkbox" id="position2" name="position2" value="Defense">
+                    <label for="position2">Defense</label><br>
+                    <input type="checkbox" id="position3" name="position3" value="Midfield">
+                    <label for="position3">Forward</label><br>
+                    <input type="checkbox" id="position4" name="position4" value="Goalkeeper">
+                    <label for="position4">Goalkeeper</label><br>
+                    
+                    <br>
+                    <h3>Uniform Size</h3>
+                    <input type="radio" id="ysmall" name="size" value="Youth Small">
+                    <label for="ysmall">Youth Small</label><br>
+                    
+                    <input type="radio" id="ymed" name="size" value="Youth Medium">
+                    <label for="ymed">Youth Medium</label><br>
+                    
+                    <input type="radio" id="ylar" name="size" value="Youth Large">
+                    <label for="ylar">Youth Large</label><br>
+                    
+                    <input type="radio" id="small" name="size" value="Small">
+                    <label for="small">Small</label><br>
+                    
+                    <input type="radio" id="med" name="size" value="Medium">
+                    <label for="med">Medium</label><br>
+                    
+                    <input type="radio" id="lar" name="size" value="Large">
+                    <label for="lar">Large</label><br>
+                    
+                    <input type="radio" id="exlar" name="size" value="Extra-Large">
+                    <label for="exlar">Extra-Large</label><br>
+                    
+                    <br>
+                    <h3>Permission to Play</h3>
+
+                    <p>
+                        I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by
+                        all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of
+                        physical injury associated with hockey and in consideration for the "League" accepting the
+                        registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise
+                        indemnify MDHL, their employees and associated personnel and volunteers, including the
+                        facilities used for practices and games, against any claim by or on behalf of the registrant as
+                        a result of the registrant's participation in the programand/orbeing transported to or from MDHL
+                        sponsored activities, which transportation
+                        By signing below, I herebyagree andauthorizethe above. In addition, by signing below, lalso
+                        acknowledge that I have read the cancellation policy and agree to its terms.
+                    </p><br>
+                    <label for="parentname">Paren/Guardian Signature:</label>
+                    <input type="text" name="parentname" id="parentname"><br>
+                    <label for="date">Date:</label>
+                    <input type="text" name="date" id="date"><br>
+
+                    <button id="sendButton">SEND!</button>
+                </fieldset>
+            </form>
+
+
+
+        </section>
+    </main>
+
+
+
+    <footer>
+        <img src="../assets/hockey1.jpg" id="img_1" alt="hockey">
+        <section>
+            <div id="social">
+                <a target="_blank" href="https://jadrankaromeo.blogspot.com/"><img src="../assets/blog.png" alt="htmlBlog"></a>
+                <a target="_blank" href="https://github.com/lobasuelta-corderaatada"><img src="../assets/github.png" alt="htmlGitHub"></a>
+                <a target="_blank" href="mailto:jadranka.romeo@gmail.com"> <img src="../assets/mail.png" alt="htmlMail"></a>
+            </div>
+
+            <p>
+                <strong>&copy; Mighty Ducks League 2024</strong>
+            </p>
+        </section>
+
+        <img src="../assets/hockey2.jpg" id="img_2" alt="hockey">
+
+    </footer>
+
+
+</body>

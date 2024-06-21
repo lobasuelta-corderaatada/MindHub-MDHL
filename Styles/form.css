@@ -1,0 +1,53 @@
+/* forms */
+
+#sectionForm{
+    margin-top: 20px;
+  }
+  
+  form{
+    background-color: var(--backgroundNav);
+    padding: 50px;
+  }
+  
+  fieldset{
+    padding: 50px;
+  }
+  
+  #textInput{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  .labels{
+    margin-bottom: 21px;
+  }
+  
+  
+  #inputs{
+    margin-left: 30px;
+  }
+  
+  #labels, #inputs{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  
+  #sendButton{
+    margin-top: 20px;
+    padding-inline: 40px;
+    padding-block: 10px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 1px solid;
+  }
+  
+  #sendButton:hover{
+    background-color: rgb(17, 88, 17);
+    color: #ffffff;
+    font-weight: 700;
+    border-color: #ffffff;
+    
+  }

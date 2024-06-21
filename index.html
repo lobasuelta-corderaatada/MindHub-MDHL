@@ -8,24 +8,37 @@
     <meta name="keywords" content="Mighty Ducks, Hockey, Hockey League">
     <meta name="author" content="Jadri">
     <title>Mighty Ducks Hockey League</title>
-    <link rel="stylesheet" href="./Styles/styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
 </head>
 
 <body>
-    <h1>Mighty Ducks Hockey League</h1>
+
     <header>
-        <nav class="nav">
-            <a class="active borde" href="#">Home</a>
-            <a class="borde" href="Pages/about.html">About MDHL</a>
-            <a class="borde" href="Pages/contact.html">Contact</a>
-            <a class="Game Info" href="Pages/game_info.html">Game Info</a>
-            <a class="Rules" href="Pages/rules.html">Rules</a>
+        <nav>
+            <a id="divNav" href="./index.html">
+
+                <img src="./assets/logo.png" id="logoNav" alt="Logo">
+                <h1>Mighty Ducks Hockey League</h1>
+
+            </a>
+            <div>
+                <a href="#">Home</a>
+                <a href="./pages/about.html">About MDHL</a>
+                <a href="./pages/contact.html">Contact</a>
+                <a href="./pages/game_info.html">Game Info</a>
+                <a href="./pages/rules.html">Rules</a>
+                <a href="./pages/form.html">Form</a>
+            </div>
         </nav>
     </header>
     <main>
-        <h2 class="borde">Upcoming Events</h2>
-        <div class="maindiv">
-            <img src="Assets/Logo Mighty ducks-01.png" width="100" class="logo" alt="Logo">
+        <section class="sectionHome">
+            <aside>
+                <h2>Upcoming Events</h2>
+                <img src="./assets/logoMightyDucks.png" class="logo" alt="Logo">
+
+            </aside>
             <article>
                 <h3>August 4</h3>
                 <p>MDSL Fundraiser</p>
@@ -34,7 +47,24 @@
                 <h3>September 1</h3>
                 <p>First Game of the Season (Check Game Schedule for details)</p>
             </article>
-        </div>
+
+        </section>
     </main>
-    <footer><p>lobasuelta-corderaatada</p></footer>
+    <footer>
+        <img src="./assets/hockey1.jpg" id="img_1" alt="hockey">
+        <section>
+            <div id="social">
+                <a target="_blank" href="https://jadrankaromeo.blogspot.com/"><img src="./assets/blog.png" alt="htmlBlog"></a>
+                <a target="_blank" href="https://github.com/lobasuelta-corderaatada"><img src="./assets/github.png" alt="htmlGitHub"></a>
+                <a target="_blank" href="mailto:jadranka.romeo@gmail.com"> <img src="./assets/mail.png" alt="htmlMail"></a>
+            </div>
+
+            <p>
+                <strong>&copy; Mighty Ducks League 2024</strong>
+            </p>
+        </section>
+
+        <img src="./assets/hockey2.jpg" id="img_2" alt="hockey">
+
+    </footer>
 </body>
